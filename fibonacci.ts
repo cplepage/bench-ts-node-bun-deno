@@ -17,4 +17,4 @@ try{
 const numInput: string = args.at(-1) ?? "1";
 const num = parseInt(numInput);
 
-console.log(fibonacci(num));
+fibonacci(num);
